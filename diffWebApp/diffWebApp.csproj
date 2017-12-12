@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E074AA53-312E-4414-8F52-73A4D164BA6D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>diffWebApp</RootNamespace>
+    <AssemblyName>diffWebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\form.css" />
+    <Content Include="css\grid.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\owl-carousel.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style1.css" />
+    <Content Include="css\superfish.css" />
+    <Content Include="css\templatemo-style.css" />
+    <Content Include="css\touchTouch.css" />
+    <Content Include="helper.aspx" />
+    <Content Include="images\08_a.jpg" />
+    <Content Include="images\08_b.jpg" />
+    <Content Include="images\08_c.jpg" />
+    <Content Include="images\09_a.jpg" />
+    <Content Include="images\09_b.jpg" />
+    <Content Include="images\12_a.jpg" />
+    <Content Include="images\12_b.jpg" />
+    <Content Include="images\16_a.jpg" />
+    <Content Include="images\16_b.jpg" />
+    <Content Include="images\17_a.jpg" />
+    <Content Include="images\17_b.jpg" />
+    <Content Include="images\21_a.jpg" />
+    <Content Include="images\21_b.jpg" />
+    <Content Include="images\23_a.jpg" />
+    <Content Include="images\23_b.jpg" />
+    <Content Include="images\26_a.jpg" />
+    <Content Include="images\26_b.jpg" />
+    <Content Include="images\29_a.jpg" />
+    <Content Include="images\29_b.jpg" />
+    <Content Include="images\34_a.jpg" />
+    <Content Include="images\34_b.jpg" />
+    <Content Include="images\35_a.jpg" />
+    <Content Include="images\35_b.jpg" />
+    <Content Include="images\clock.png" />
+    <Content Include="images\photo_icon.png" />
+    <Content Include="images\qr.png" />
+    <Content Include="index.html" />
+    <Content Include="js\f-d.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\img-data.js" />
+    <Content Include="js\jquery-1.7.1.js" />
+    <Content Include="js\jquery-migrate-1.1.1.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.equalheights.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobilemenu.js" />
+    <Content Include="js\jquery.ui.totop.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\min\main.min.js" />
+    <Content Include="js\min\plugins.min.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\superfish.js" />
+    <Content Include="js\TMForm.js" />
+    <Content Include="js\touchTouch.jquery.js" />
+    <Content Include="js\up-file.js" />
+    <Content Include="js\vendor\jquery-1.10.2.min.js" />
+    <Content Include="js\vendor\modernizr-2.6.2.min.js" />
+    <Content Include="out.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\ImageComparer.cs" />
+    <Compile Include="helper.aspx.cs">
+      <DependentUpon>helper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helper.aspx.designer.cs">
+      <DependentUpon>helper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="out.aspx.cs">
+      <DependentUpon>out.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="out.aspx.designer.cs">
+      <DependentUpon>out.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="in\" />
+    <Folder Include="out\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="js\PIE.php" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63614</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

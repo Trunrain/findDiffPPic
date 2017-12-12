@@ -1,0 +1,5 @@
+D:\Project\diffWebApp\diffWebApp\bin\diffWebApp.dll
+D:\Project\diffWebApp\diffWebApp\bin\diffWebApp.pdb
+D:\Project\diffWebApp\diffWebApp\obj\Debug\diffWebApp.dll
+D:\Project\diffWebApp\diffWebApp\obj\Debug\diffWebApp.pdb
+D:\Project\diffWebApp\diffWebApp\obj\Debug\diffWebApp.csprojResolveAssemblyReference.cache
